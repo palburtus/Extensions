@@ -12,8 +12,9 @@ Returns true for strings that are
 ## int ```IntegerExtensions.cs```
 IsPercentageOf
 ```
-int subSetOfRecords = 458;
+int subsetOfRecords = 458;
 int totalRecords = 1127;
-int percentage = subSetOfRecords.IsPercentageOf(totalRecords);
-//percentage equals 41 (subSetOfRecords / totalRecords * 100 rounded to the nearest integer)
+int percentage = subsetOfRecords.IsPercentageOf(totalRecords);
+//percentage equals 41 (subsetOfRecords / totalRecords * 100 rounded to the nearest integer)
 ```
+subset of records divided by total records that eqaul n.5 will round up
