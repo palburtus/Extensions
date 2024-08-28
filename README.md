@@ -9,7 +9,7 @@ Returns true for strings that are
 - empty (i.e. ```string value = string.empty``` or ```string value = ""```)
 - string value is "null" (i.e. ```string value = "null"```)
 
-## int ```IntExtensions.cs```
+## int ```IntegerExtensions.cs```
 IsPercentageOf
 ```
 int subSetOfRecords = 458;
