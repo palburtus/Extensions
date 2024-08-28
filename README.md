@@ -15,5 +15,5 @@ IsPercentageOf
 int subSetOfRecords = 458;
 int totalRecords = 1127;
 int percentage = subSetOfRecords.IsPercentageOf(totalRecords);
-//percentage equals (subSetOfRecords / totalRecords * 100 rounded up to the nearest integer)
+//percentage equals 41 (subSetOfRecords / totalRecords * 100 rounded to the nearest integer)
 ```
